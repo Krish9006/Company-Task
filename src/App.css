@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: black;
+  color: white;
+
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #8e2de2;
+}
+
+.contact-btn button {
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  border: none;
+  padding: 15px 25px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.contact-btn button:hover {
+  opacity: 0.8;
+}
+/* --- General Body and Container Styling --- */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: 'Arial', sans-serif; /* Use a common sans-serif font */
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Aligns content to the top */
+  padding: 80px 100px; /* Adjust padding for spacing from edges */
+  background-color: black;
+  border: #4a00e0 4px solid;
+}
+
+/* --- Left Content Styling --- */
+.left-content {
+  flex: 1;
+  padding-right: 80px;
+}
+
+/* --- Heading and Paragraphs --- */
+.left-content h1 {
+  font-size: 4em; /* Adjust for larger font size */
+  font-weight: 900;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.left-content .highlight {
+  color: #8e2de2; /* Deep purple color for 'growth' */
+}
+
+.left-content p {
+  font-size: 1.1em;
+  color: #a0a0a0;
+  margin-top: 20px;
+}
+
+.left-content .privacy {
+  font-size: 0.9em;
+  color: #a0a0a0;
+  margin-top: 15px;
+}
+
+.left-content .privacy a {
+  color: #8e2de2;
+  text-decoration: none;
+}
+
+/* --- Input and Search Button Styling --- */
+.input-box {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  margin-top: 25px;
+  width: 400px; /* Make input box full width */
+}
+
+.input-box input {
+  flex: 1;
+  background: none;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  font-size: 1em;
+  outline: none;
+}
+
+.search-button {
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  border: none;
+  padding: 18px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-button svg {
+  color: white;
+  font-size: 1.2em;
+}
+
+/* --- Checkboxes and Bullet Points --- */
+.checkboxes {
+  display: flex;
+  gap: 30px; /* Increased gap for better spacing */
+  margin-top: 25px;
+}
+
+.checkboxes p {
+  font-size: 0.9em;
+  color: white;
+  line-height: 1.4;
+}
+
+.left-content ul {
+  list-style: none;
+  margin: 20px 0 0 0;
+  padding: 0;
+  color: white;
+  font-size: 1em;
+}
+
+.left-content li {
+  margin-bottom: 5px;
+}
+
+/* --- Right Image Styling --- */
+.right-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.right-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
